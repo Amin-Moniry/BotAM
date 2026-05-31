@@ -183,7 +183,11 @@ If you're interested in using this code for your project, please contact the dev
 ## 📞 Support & Contact
 
 - **Telegram Bot**: [@translator7adc7aminbot](https://t.me/translator7adc7aminbot)
-- **Developer**: Aminᵃᵈᶜ⁷
+- **Developer**: Amin Moniry (AminTivanix2)
+- **Telegram**: [@amintivanix2](https://t.me/amintivanix2)
+- **Email**: [amintivanix2@gmail.com](mailto:amintivanix2@gmail.com)
+- **GitHub**: [Amin-Moniry](https://github.com/Amin-Moniry)
+- **Website**: [allin1wrench.ir](https://allin1wrench.ir)
 - **Issues**: Open a GitHub issue for bug reports
 - **Feature Requests**: Submit via GitHub discussions
 
@@ -207,12 +211,12 @@ If you're interested in using this code for your project, please contact the dev
 
 ## 📄 License
 
-**© 2025 Aminᵃᵈᶜ⁷ - All Rights Reserved**
+**© 2026 Amin Moniry (AminTivanix2) - All Rights Reserved**
 
 This software is proprietary and confidential. Unauthorized copying, modification, distribution, or use of this software, via any medium, is strictly prohibited without the express written permission of the copyright holder.
 
 ### License Terms:
-- **Proprietary Software**: This code is the exclusive property of Aminᵃᵈᶜ⁷
+- **Proprietary Software**: This code is the exclusive property of Amin Moniry (AminTivanix2)
 - **View Only**: Code is shared for educational viewing purposes only
 - **No Reproduction**: Copying, modifying, or using this code is prohibited
 - **Legal Protection**: Violations may result in legal action
@@ -230,7 +234,7 @@ For licensing inquiries, please contact the developer directly.
 
 <div align="center">
 
-**Built with ❤️ by Aminᵃᵈᶜ⁷**
+**Built with ❤️ by Amin Moniry (AminTivanix2)**
 
 *Making language barriers disappear, one translation at a time*
 
