@@ -207,3 +207,12 @@ backups/
 node_modules/ (if using any Node.js tools)
 .npm
 .eslintcache
+
+# BotAM v7
+.env
+data/
+*.db
+*.db-wal
+*.db-shm
+.idea/
+.pytest_cache/

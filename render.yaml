@@ -1,0 +1,22 @@
+# Render Blueprint. If you created the service by hand you can ignore this file.
+services:
+  - type: web
+    name: botam
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: BOT_TOKEN
+        sync: false
+      - key: ADMIN_ID
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false
+      # Free instances have an ephemeral disk: botam.db is reset on every deploy/restart.
+      # With a paid Render Disk mounted at /var/data, uncomment:
+      # - key: DATA_DIR
+      #   value: /var/data
