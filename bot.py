@@ -43,7 +43,6 @@ def check_user_membership(user_id: int, context: CallbackContext) -> bool:
 
 def create_join_channel_keyboard() -> InlineKeyboardMarkup:
     keyboard = [
-        [InlineKeyboardButton("🔗 عضویت در کانال", url=CHANNEL_URL)],
         [InlineKeyboardButton("✅ عضو شدم - بررسی کن", callback_data="check_membership")]
     ]
     return InlineKeyboardMarkup(keyboard)
