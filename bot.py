@@ -6,11 +6,16 @@ from datetime import datetime
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, MessageHandler, CallbackQueryHandler, Filters, CallbackContext
 import threading
+from http.server import BaseHTTPRequestHandler, HTTPServer
 from typing import Dict, List, Optional
 import requests
 
 TOKEN = os.environ.get('BOT_TOKEN')
-ADMIN_ID = int(os.environ.get('ADMIN_ID'))
+ADMIN_ID = int(os.environ.get('ADMIN_ID', '0') or 0)
+
+if not TOKEN:
+    print("❌ BOT_TOKEN تنظیم نشده است. آن را در Environment Variables قرار دهید.")
+    raise SystemExit(1)
 
 CHANNEL_ID = "-1002274285581"
 CHANNEL_URL = "https://t.me/adc7AIA7adc"
@@ -1074,8 +1079,28 @@ def test_translation_system():
         except Exception as e:
             print(f"❌ خطا در تست: {e}")
 
+class _HealthHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.send_header("Content-Type", "text/plain; charset=utf-8")
+        self.end_headers()
+        self.wfile.write(b"BotAM is running")
+
+    def do_HEAD(self):
+        self.send_response(200)
+        self.end_headers()
+
+    def log_message(self, *args):
+        pass
+
+def start_health_server():
+    """وب‌سرور سبک برای Render (Web Service) و پینگ cron"""
+    port = int(os.environ.get("PORT", 10000))
+    HTTPServer(("0.0.0.0", port), _HealthHandler).serve_forever()
+
 def main():
     try:
+        threading.Thread(target=start_health_server, daemon=True).start()
         test_translation_system()
 
         updater = Updater(TOKEN, use_context=True)

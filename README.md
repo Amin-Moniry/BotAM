@@ -9,7 +9,7 @@
 <br/>
 
 <a href="https://python.org"><img src="https://img.shields.io/badge/%E2%96%B2%20PYTHON-3.9%2B-C1502E?style=for-the-badge&logo=python&logoColor=C1502E&labelColor=140a08"/></a>
-<a href="https://t.me/translator7adc7aminbot"><img src="https://img.shields.io/badge/%E2%96%B6%20TELEGRAM-Try_the_Bot-C1502E?style=for-the-badge&logo=telegram&logoColor=C1502E&labelColor=140a08"/></a>
+<a href="https://t.me/BotamBotamBotamBot"><img src="https://img.shields.io/badge/%E2%96%B6%20TELEGRAM-Try_the_Bot-C1502E?style=for-the-badge&logo=telegram&logoColor=C1502E&labelColor=140a08"/></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/%E2%97%88%20LICENSE-Proprietary-C1502E?style=for-the-badge&labelColor=140a08"/></a>
 <a href="https://github.com/Amin-Moniry"><img src="https://img.shields.io/badge/%E2%96%B3%20GITHUB-Amin--Moniry-C1502E?style=for-the-badge&logo=github&logoColor=C1502E&labelColor=140a08"/></a>
 <img src="https://img.shields.io/badge/%E2%97%8E%20LANGUAGES-15%2B%20Supported-C1502E?style=for-the-badge&labelColor=140a08"/>
@@ -271,7 +271,7 @@ export ADMIN_ID="your_telegram_user_id"
 
 ```bash
 # This code is for viewing only — cannot be copied or used.
-# To use the bot, visit: https://t.me/translator7adc7aminbot
+# To use the bot, visit: https://t.me/BotamBotamBotamBot
 ```
 
 <br/>
@@ -441,8 +441,8 @@ Interested in using this code for your own project? Contact the developer for pr
 </a>
 </td>
 <td align="center" width="210">
-<a href="https://t.me/translator7adc7aminbot">
-<img src="https://img.shields.io/badge/◈_TELEGRAM_BOT-@translator7adc7aminbot-C1502E?style=for-the-badge&logo=telegram&logoColor=C1502E&labelColor=140a08&color=3B1508" width="200"/>
+<a href="https://t.me/BotamBotamBotamBot">
+<img src="https://img.shields.io/badge/◈_TELEGRAM_BOT-@BotamBotamBotamBot-C1502E?style=for-the-badge&logo=telegram&logoColor=C1502E&labelColor=140a08&color=3B1508" width="200"/>
 </a>
 </td>
 <td align="center" width="210">
