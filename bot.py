@@ -17,9 +17,6 @@ if not TOKEN:
     print("❌ BOT_TOKEN تنظیم نشده است. آن را در Environment Variables قرار دهید.")
     raise SystemExit(1)
 
-CHANNEL_ID = "-1002274285581"
-CHANNEL_URL = "https://t.me/adc7AIA7adc"
-
 import logging
 logging.basicConfig(level=logging.ERROR)
 
@@ -32,75 +29,6 @@ except ImportError:
     exit(1)
 except Exception as e:
     print(f"⚠️ هشدار در تست اولیه: {e}")
-
-def check_user_membership(user_id: int, context: CallbackContext) -> bool:
-    try:
-        member = context.bot.get_chat_member(CHANNEL_ID, user_id)
-        return member.status in ['member', 'administrator', 'creator']
-    except Exception as e:
-        print(f"خطا در بررسی عضویت: {e}")
-        return False
-
-def create_join_channel_keyboard() -> InlineKeyboardMarkup:
-    keyboard = [
-        [InlineKeyboardButton("✅ عضو شدم - بررسی کن", callback_data="check_membership")]
-    ]
-    return InlineKeyboardMarkup(keyboard)
-
-def show_join_channel_message(update: Update, context: CallbackContext):
-    user_name = update.effective_user.first_name or "کاربر"
-    
-    join_text = f"""🔒 **دسترسی محدود!**
-
-╔══════════════════════════╗
-║    **🤖 ربات مترجم BotAMᵃᵈᶜ⁷**    ║
-╚══════════════════════════╝
-
-سلام **{user_name}** عزیز! 👋
-
-برای استفاده از این ربات، ابتدا باید در کانال ما عضو شوید:
-
-🔗 **کانال:** `@adc7AIA7adc`
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**💛 چرا عضویت ضروری است؟**
-• دریافت آخرین آپدیت‌ها
-• اطلاع از ویژگی‌های جدید  
-• پشتیبانی و راهنمایی
-• دسترسی به نسخه‌های ویژه
-
-**🎯 مزایای عضویت:**
-✅ استفاده رایگان از ربات
-✅ ترجمه نامحدود
-✅ پشتیبانی 24/7
-✅ آپدیت‌های منظم
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**👇 برای ادامه، ابتدا در کانال عضو شوید:**"""
-
-    if update.message:
-        update.message.reply_text(
-            join_text,
-            reply_markup=create_join_channel_keyboard(),
-            parse_mode='Markdown'
-        )
-    elif update.callback_query:
-        update.callback_query.edit_message_text(
-            join_text,
-            reply_markup=create_join_channel_keyboard(),
-            parse_mode='Markdown'
-        )
-
-def membership_required(func):
-    def wrapper(update: Update, context: CallbackContext):
-        user_id = update.effective_user.id
-        if not check_user_membership(user_id, context):
-            show_join_channel_message(update, context)
-            return
-        return func(update, context)
-    return wrapper
 
 class SuperTranslator:
     def __init__(self):
@@ -296,7 +224,6 @@ def create_language_keyboard(callback_prefix: str, selected: str = None) -> Inli
     keyboard.append([InlineKeyboardButton("🔙 بازگشت", callback_data="main_menu")])
     return InlineKeyboardMarkup(keyboard)
 
-@membership_required
 def start(update: Update, context: CallbackContext):
     user_id = update.effective_user.id
     user_name = update.effective_user.first_name or "کاربر"
@@ -346,12 +273,10 @@ def button_handler(update: Update, context: CallbackContext):
     user_id = query.from_user.id
     
     if query.data == "check_membership":
-        if check_user_membership(user_id, context):
-            query.answer("✅ تبریک! عضویت شما تأیید شد")
-            user_name = query.from_user.first_name or "کاربر"
-            user_data = get_user_data(user_id)
-            
-            welcome_text = f"""💛 **سلام {user_name} عزیز!**
+        user_name = query.from_user.first_name or "کاربر"
+        user_data = get_user_data(user_id)
+        
+        welcome_text = f"""💛 **سلام {user_name} عزیز!**
 
 ╔══════════════════════════╗
 ║      **🤖 ربات مترجم BotAMᵃᵈᶜ⁷**      ║
@@ -382,18 +307,11 @@ def button_handler(update: Update, context: CallbackContext):
 
 **👇 برای شروع یکی از گزینه‌ها را انتخاب کنید:**"""
 
-            query.edit_message_text(
-                welcome_text,
-                reply_markup=create_main_keyboard(),
-                parse_mode='Markdown'
-            )
-        else:
-            query.answer("❌ لطفاً ابتدا در کانال عضو شوید", show_alert=True)
-            show_join_channel_message(update, context)
-        return
-
-    if not check_user_membership(user_id, context):
-        show_join_channel_message(update, context)
+        query.edit_message_text(
+            welcome_text,
+            reply_markup=create_main_keyboard(),
+            parse_mode='Markdown'
+        )
         return
 
     user_data = get_user_data(user_id)
@@ -481,7 +399,6 @@ def handle_target_selection(query, context):
     show_translate_menu(query, user_data)
     db.save_data()
 
-@membership_required
 def translate_text(update: Update, context: CallbackContext):
     user_id = update.effective_user.id
     text = update.message.text.strip()
@@ -615,7 +532,6 @@ def translate_text(update: Update, context: CallbackContext):
             parse_mode='Markdown'
         )
 
-@membership_required
 def help_command(update: Update, context: CallbackContext):
     help_text = f"""📖 **راهنمای کامل ربات**
 
@@ -671,7 +587,6 @@ def help_command(update: Update, context: CallbackContext):
         parse_mode='Markdown'
     )
 
-@membership_required
 def stats_command(update: Update, context: CallbackContext):
     user_data = get_user_data(update.effective_user.id)
 
@@ -696,7 +611,6 @@ def stats_command(update: Update, context: CallbackContext):
         parse_mode='Markdown'
     )
 
-@membership_required
 def info_command(update: Update, context: CallbackContext):
     info_text = f"""ℹ️ **اطلاعات ربات**
 
