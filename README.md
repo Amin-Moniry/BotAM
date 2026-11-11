@@ -1,24 +1,22 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:140a08,50:5C2A1A,100:140a08&text=BOTAM&fontColor=C1502E&fontSize=70&fontAlign=50&fontAlignY=55&animation=fadeIn&stroke=C1502E&strokeWidth=1&desc=Advanced%20Multi-Engine%20Telegram%20Translator%20Bot&descAlign=50&descAlignY=75&descSize=15&descColor=F0A878" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:140a08,50:5C2A1A,100:140a08&text=BOTAM&fontColor=C1502E&fontSize=70&fontAlign=50&fontAlignY=55&animation=fadeIn&stroke=C1502E&strokeWidth=1&desc=AI-powered%20Multi-Engine%20Telegram%20Translator&descAlign=50&descAlignY=75&descSize=15&descColor=F0A878" width="100%"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&weight=700&size=20&duration=4000&pause=800&color=C1502E&center=true&vCenter=true&width=760&height=45&lines=%E2%96%B6+TRANSLATION+ENGINE+%E2%80%94+ONLINE;%E2%97%8F+GOOGLE+%C2%B7+BING+%C2%B7+YANDEX+%C2%B7+BAIDU;%E2%96%B6+4-LAYER+FALLBACK+SYSTEM;%E2%97%8F+SMART+LANGUAGE+DETECTION"/>
+<img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&weight=700&size=20&duration=4000&pause=800&color=C1502E&center=true&vCenter=true&width=760&height=45&lines=%E2%96%B6+v7.0+%E2%80%94+ASYNC+CORE+ONLINE;%E2%97%8F+GEMINI+AI+%C2%B7+GOOGLE+%C2%B7+LIBRE+%C2%B7+MYMEMORY;%E2%96%B6+SELF-HEALING+FALLBACK+CHAIN;%E2%97%8F+28+LANGUAGES+%C2%B7+SMART+TARGETING"/>
 
 <br/>
 
-<a href="https://python.org"><img src="https://img.shields.io/badge/%E2%96%B2%20PYTHON-3.9%2B-C1502E?style=for-the-badge&logo=python&logoColor=C1502E&labelColor=140a08"/></a>
+<img src="https://img.shields.io/badge/%E2%96%B2%20PYTHON-3.11-C1502E?style=for-the-badge&logo=python&logoColor=C1502E&labelColor=140a08"/>
+<img src="https://img.shields.io/badge/%E2%97%86%20VERSION-7.0.0-C1502E?style=for-the-badge&labelColor=140a08"/>
 <a href="https://t.me/BotamBotamBotamBot"><img src="https://img.shields.io/badge/%E2%96%B6%20TELEGRAM-Try_the_Bot-C1502E?style=for-the-badge&logo=telegram&logoColor=C1502E&labelColor=140a08"/></a>
 <a href="LICENSE"><img src="https://img.shields.io/badge/%E2%97%88%20LICENSE-Proprietary-C1502E?style=for-the-badge&labelColor=140a08"/></a>
-<a href="https://github.com/Amin-Moniry"><img src="https://img.shields.io/badge/%E2%96%B3%20GITHUB-Amin--Moniry-C1502E?style=for-the-badge&logo=github&logoColor=C1502E&labelColor=140a08"/></a>
-<img src="https://img.shields.io/badge/%E2%97%8E%20LANGUAGES-15%2B%20Supported-C1502E?style=for-the-badge&labelColor=140a08"/>
+<img src="https://img.shields.io/badge/%E2%97%8E%20LANGUAGES-28-C1502E?style=for-the-badge&labelColor=140a08"/>
 
 <br/><br/>
 
 > **"Making language barriers disappear, one translation at a time."**
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 </div>
 
@@ -30,307 +28,191 @@
 
 </div>
 
-<div align="center">
-
-**BotAM** is a powerful, multi-engine translation bot for Telegram with smart language detection and a professional, Persian-friendly UI. It runs input through a **4-layer fallback translation system** — if one engine fails, another instantly takes over — so a translation is never dropped.
-
-Every session tracks **personal statistics, translation history, and a gamified level system**, all wrapped in a clean, intuitive interface. Translations complete in **under 2 seconds** across **15+ languages**, with automatic source-language detection.
-
-</div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
+**BotAM** is a Telegram translator built on a fully **asynchronous** core. Send any text — the language is detected automatically and the translation comes back in one message, with no extra steps. Behind it, a **self-healing engine chain** (Gemini AI → Google → LibreTranslate → MyMemory) keeps translating even when a provider is slow, rate-limited or down.
 
 <div align="center">
 
-## `◈` Why BotAM?
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=13&duration=3000&pause=999999&color=C1502E&center=true&vCenter=true&width=560&height=28&lines=%E2%97%89+One+engine+down+is+never+a+translation+lost"/>
-
-### Three Pillars
-
-<table>
-<tr>
-<td align="center" width="260">
-
-**`◆` Multi-Engine Translation**
-<sub>4 backup systems — Google, Bing, Yandex, Baidu — chained as automatic fallbacks</sub>
-
-</td>
-<td align="center" width="260">
-
-**`◆` Smart Language Detection**
-<sub>Pattern-based script recognition (Persian, Arabic, Cyrillic, Chinese...) fused with API detection</sub>
-
-</td>
-<td align="center" width="260">
-
-**`◆` Gamified Experience**
-<sub>Personal stats, translation history, and a 5-tier level system from Beginner to Master</sub>
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
-
-<div align="center">
-
-## `◈` Key Features
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=13&duration=3000&pause=999999&color=C1502E&center=true&vCenter=true&width=520&height=28&lines=%E2%97%89+Everything+you+need+to+translate+is+already+here"/>
-
-<small>
-
-| <sub>▶ Feature</sub> | <sub>Description</sub> | <sub>Status</sub> |
+| `◆` Quality | `◆` Reliability | `◆` Experience |
 |:---:|:---:|:---:|
-| <sub>Smart language detection</sub> | <sub>Automatically identifies input language via pattern matching and API cross-check</sub> | <sub>✅</sub> |
-| <sub>Multi-engine translation</sub> | <sub>4 backup translation systems — Google, Bing, Yandex, Baidu</sub> | <sub>✅</sub> |
-| <sub>4-layer fallback system</sub> | <sub>If one service fails, the next in the chain takes over automatically</sub> | <sub>✅</sub> |
-| <sub>Lightning-fast responses</sub> | <sub>Translations completed in under 2 seconds</sub> | <sub>✅</sub> |
-| <sub>15+ languages</sub> | <sub>Comprehensive language coverage with auto-detect</sub> | <sub>✅</sub> |
-| <sub>User statistics</sub> | <sub>Detailed personal analytics and progress tracking</sub> | <sub>✅</sub> |
-| <sub>Translation history</sub> | <sub>Last 10 translations saved per user</sub> | <sub>✅</sub> |
-| <sub>Gamified levels</sub> | <sub>5-tier ranking from Beginner to Translation Master</sub> | <sub>✅</sub> |
-| <sub>Professional UI</sub> | <sub>Clean, intuitive interface with native Persian support</sub> | <sub>✅</sub> |
-| <sub>Data persistence</sub> | <sub>User preferences and history saved automatically</sub> | <sub>✅</sub> |
-| <sub>24/7 uptime</sub> | <sub>Continuous service availability</sub> | <sub>✅</sub> |
-| <sub>Voice translation</sub> | <sub>Speech-to-text, then translate</sub> | <sub>⏳</sub> |
-| <sub>File & image translation</sub> | <sub>PDF/DOCX/TXT support, plus OCR for images</sub> | <sub>⏳</sub> |
-| <sub>Personal API access</sub> | <sub>Custom API endpoint for developers</sub> | <sub>⏳</sub> |
-
-</small>
+| **Gemini AI** translates with full-message context and tone — far more natural than word-by-word engines, especially for Persian | **Circuit breaker + timeouts + cache** — a failing engine is skipped automatically and retried later | **Zero-step flow**, copy / reverse / re-translate buttons, clean RTL-friendly cards |
 
 </div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ---
 
 <div align="center">
 
-## `◈` System Architecture
+## `◈` What's new in v7
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=13&duration=3000&pause=999999&color=C1502E&center=true&vCenter=true&width=520&height=28&lines=%E2%97%89+End-to-end+translation+flow"/>
+</div>
+
+| | Before (v6) | Now (v7) |
+|:--|:--|:--|
+| **Concurrency** | Sync loop — one slow request stalled the bot | Fully async, concurrent updates, per-engine timeouts |
+| **Engines** | 4 scraping-based engines tried one after another | Gemini AI + Google + LibreTranslate + MyMemory with circuit breaker & cache |
+| **Language detection** | Extra API call, result discarded, regex guessed (Arabic ⇒ Persian) | Engine-reported language + offline script detector (fa/ar/ur, ja/zh/ko, ru/uk…) |
+| **Output** | Markdown — backticks in user text crashed replies | HTML-escaped, long results split safely under Telegram's limit |
+| **Flow** | Press "start translating" first | Just send text. Smart target when text is already in the target language |
+| **Storage** | `bot_data.json` | SQLite (WAL), auto-imports old data |
+| **Rank & stats** | Random rank | Real rank, real level progress |
+| **Languages** | 15 | 28 (+ Azerbaijani, Kurdish, Ukrainian, Urdu…) |
+| **Ops** | — | `/health` JSON, `/admin`, `/broadcast`, rate limiting, tests |
+
+Full list in [CHANGELOG.md](CHANGELOG.md).
+
+---
+
+<div align="center">
+
+## `◈` Architecture
 
 </div>
 
 ```mermaid
 graph TD
-    A[💬 User Message] --> B[🔍 Language Detection]
-    B --> C{Pattern + API Match}
-    C --> D[🌐 Translation Engine]
-    D -->|Try 1| E[Google Translate]
-    E -->|Fail| F[Bing Translator]
-    F -->|Fail| G[Yandex Translate]
-    G -->|Fail| H[Baidu Translate]
-    E -->|Success| I[✅ Result Delivered]
-    F -->|Success| I
-    G -->|Success| I
-    H -->|Success| I
-    I --> J[📊 Stats & History Updated]
-    I --> K[🏆 Level Progress Checked]
+    A[💬 Message / caption / /tr] --> B{Rate limit + length check}
+    B --> C[🧠 Smart target<br/>script detector + engine detection]
+    C --> D{Cache hit?}
+    D -->|yes| H[✅ Reply]
+    D -->|no| E[🤖 Gemini AI]
+    E -->|fail / cooldown| F[🌐 Google]
+    F -->|fail / cooldown| G[🔁 LibreTranslate · MyMemory]
+    E -->|ok| H
+    F -->|ok| H
+    G -->|ok| H
+    H --> I[(💾 SQLite: history · stats · levels)]
+    H --> J[📋 Copy · 🔁 Reverse · 🌍 Other language]
 ```
 
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+```
+bot.py                 entry point (python bot.py)
+botam/
+├─ app.py              wiring, logging, polling, lifecycle
+├─ handlers.py         commands, buttons, translation flow
+├─ translator.py       engine chain · circuit breaker · cache · smart target
+├─ engines.py          Gemini · Google · LibreTranslate · MyMemory
+├─ detect.py           offline script-based language guess
+├─ storage.py          SQLite layer (+ legacy JSON import)
+├─ ui.py               texts & keyboards (Persian, HTML)
+├─ health.py           /health endpoint for Render + cron
+├─ config.py           environment configuration
+└─ languages.py        28 languages
+tests/                 pytest suite (engines mocked)
+```
 
 ---
 
 <div align="center">
 
-## `◈` Supported Languages
+## `◈` Commands
 
 </div>
 
 ```
-🇺🇸 English    🇮🇷 Persian    🇸🇦 Arabic      🇫🇷 French
-🇩🇪 German     🇪🇸 Spanish    🇮🇹 Italian     🇷🇺 Russian
-🇯🇵 Japanese   🇰🇷 Korean     🇨🇳 Chinese     🇹🇷 Turkish
-🇵🇹 Portuguese 🇮🇳 Hindi      🇳🇱 Dutch       🔍 Auto-detect
+/start            main menu
+/tr [lang] text   one-off translation, e.g.  /tr de سلام      (reply to a message + /tr works in groups)
+/lang             choose source & target language
+/history          last translations
+/stats            your level, rank and progress
+/help  /about     guide · bot & engine info
+/privacy          what is stored
+/deleteme         permanently delete your data
+/admin            (admin) users, translations, engine status
+/broadcast text   (admin) message every user
 ```
 
-<br/>
+**Result buttons:** 📋 copy · 🔁 reverse translation · 🌍 translate the same text to another language.
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<div align="center">
+
+| Level | Translations |
+|:---:|:---:|
+| 📘 Beginner | 0–49 |
+| ⭐ Advanced | 50–99 |
+| 💎 Expert | 100–499 |
+| 🏆 Professional | 500–999 |
+| 👑 Translation Master | 1000+ |
+
+</div>
 
 ---
 
 <div align="center">
 
-## `◈` Bot Commands
-
-```
-/start          → initialize the bot and show the main menu
-/help           → display comprehensive help guide
-/stats          → show your translation statistics
-/info           → display bot information and system stats
-```
+## `◈` Supported Languages (28)
 
 </div>
 
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+```
+🇮🇷 Persian    🇺🇸 English    🇸🇦 Arabic     🇦🇿 Azerbaijani  🇹🇷 Turkish    🏳️ Kurdish    🇷🇺 Russian
+🇺🇦 Ukrainian  🇫🇷 French     🇩🇪 German     🇪🇸 Spanish      🇮🇹 Italian    🇵🇹 Portuguese 🇳🇱 Dutch
+🇵🇱 Polish     🇸🇪 Swedish    🇨🇿 Czech      🇷🇴 Romanian     🇭🇺 Hungarian  🇬🇷 Greek      🇨🇳 Chinese
+🇯🇵 Japanese   🇰🇷 Korean     🇮🇳 Hindi      🇵🇰 Urdu         🇮🇩 Indonesian 🇻🇳 Vietnamese 🇹🇭 Thai
+```
 
 ---
 
 <div align="center">
 
-## `◈` User Levels & Gamification
-
-<small>
-
-| <sub>Level</sub> | <sub>Translations Required</sub> | <sub>Badge</sub> |
-|:---:|:---:|:---:|
-| <sub>📘 Beginner</sub> | <sub>0–49</sub> | <sub>New User</sub> |
-| <sub>⭐ Advanced</sub> | <sub>50–99</sub> | <sub>Active User</sub> |
-| <sub>💎 Expert</sub> | <sub>100–499</sub> | <sub>Power User</sub> |
-| <sub>🏆 Professional</sub> | <sub>500–999</sub> | <sub>Expert</sub> |
-| <sub>👑 Translation Master</sub> | <sub>1000+</sub> | <sub>Master</sub> |
-
-</small>
+## `◈` Configuration
 
 </div>
 
-<br/>
+| Variable | Required | Description |
+|:--|:-:|:--|
+| `BOT_TOKEN` | ✅ | Token from @BotFather |
+| `ADMIN_ID` | | Your Telegram id (comma-separated for several) — enables `/admin`, `/broadcast`, error alerts |
+| `GEMINI_API_KEY` | ⭐ | Enables the Gemini AI engine (best quality). Free key: Google AI Studio |
+| `GEMINI_MODEL` | | Default `gemini-flash-latest` |
+| `ENGINE_ORDER` | | Default `gemini,google,libre,mymemory` — engines are tried left → right, unavailable ones skipped |
+| `LIBRETRANSLATE_URL` / `_API_KEY` | | Add a LibreTranslate instance to the chain |
+| `DATA_DIR` | | Folder of `botam.db` (default `data`) |
+| `PORT` | | Health server port (Render sets it) — default `10000` |
+| `MAX_CHARS`, `RATE_LIMIT_COUNT`, `RATE_LIMIT_WINDOW` | | Limits (default 4000 chars, 6 requests / 20 s) |
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+See [`.env.example`](.env.example).
 
 ---
 
 <div align="center">
 
-## `◈` Usage Examples
+## `◈` Deployment — Render + Cron
 
 </div>
 
-**Basic translation**
-```
-User: Hello, how are you?
-Bot:  سلام، چطور هستید؟
-```
+1. **Render → New → Web Service**, connect this repo.
+   - Build: `pip install -r requirements.txt` · Start: `python bot.py` · Health check path: `/health`
+   - Environment: `BOT_TOKEN`, `GEMINI_API_KEY`, `ADMIN_ID`, `PYTHON_VERSION=3.11.9`
+   - (A ready [`render.yaml`](render.yaml) Blueprint is included.)
+2. **Keep it awake (free plan):** create a cron job (e.g. [cron-job.org](https://cron-job.org)) that requests `https://<your-service>.onrender.com/health` **every 10 minutes**. The endpoint returns JSON with status, uptime and engine states.
+3. **Persistence:** Render's free disk is ephemeral — `botam.db` is wiped on every deploy/restart. For permanent data attach a **Render Disk** and set `DATA_DIR=/var/data`.
 
-**Auto language detection**
-```
-User: Bonjour mon ami
-Bot:  🔍 Detected: French → Persian
-      سلام دوست من
-```
+> ⚠️ Run **one** instance only. Two instances polling the same bot token (e.g. during a deploy overlap, or locally while Render runs) cause Telegram `Conflict` errors.
 
-**Settings management**
-- Change source language — select from 15+ options
-- Change target language — set your preferred output
-- View history — last 10 translations saved
-- Reset settings — return to default configuration
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
-
-<div align="center">
-
-## `◈` Installation & Setup
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=13&duration=3000&pause=999999&color=C1502E&center=false&vCenter=true&width=560&height=28&lines=%E2%96%B6+Let%27s+get+you+running"/>
-
-</div>
-
-**Prerequisites:** Python 3.9+ · a Telegram bot token from @BotFather
-
-![01](https://img.shields.io/badge/01-Install_Deps-C1502E?style=flat-square&labelColor=140a08) &nbsp; Install dependencies
+**Local run**
 
 ```bash
-pip install python-telegram-bot==13.15
-pip install translators
-pip install requests
+pip install -r requirements.txt
+cp .env.example .env        # fill BOT_TOKEN (+ GEMINI_API_KEY)
+python bot.py
+# tests
+pip install -r requirements-dev.txt && pytest
 ```
 
-![02](https://img.shields.io/badge/02-Configure_Env-C1502E?style=flat-square&labelColor=140a08) &nbsp; Set your environment variables
+<details>
+<summary><b>🇮🇷 راهنمای فارسی دیپلوی</b></summary>
 
-```bash
-export BOT_TOKEN="your_telegram_bot_token"
-export ADMIN_ID="your_telegram_user_id"
-```
+<div dir="rtl">
 
-![03](https://img.shields.io/badge/03-Run-C1502E?style=flat-square&labelColor=140a08) &nbsp; Run it
-
-```bash
-# This code is for viewing only — cannot be copied or used.
-# To use the bot, visit: https://t.me/BotamBotamBotamBot
-```
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
-
-<div align="center">
-
-## `◈` Tech Stack
-
-| Layer | Technology |
-|:-----:|:----------:|
-| **Language** | Python 3.9+ |
-| **Bot framework** | python-telegram-bot |
-| **Translation** | Google · Bing · Yandex · Baidu (4-layer fallback) |
-| **Language detection** | Pattern-based regex + API cross-check |
-| **Persistence** | JSON-based user database |
+1. در Render یک **Web Service** بساز و ریپو را وصل کن؛ دستور شروع: `python bot.py` و مسیر Health Check: `/health`.
+2. متغیرهای محیطی: `BOT_TOKEN` (الزامی)، `GEMINI_API_KEY` (برای بهترین کیفیت ترجمه)، `ADMIN_ID` (آیدی عددی تو).
+3. در سایتی مثل cron-job.org هر **۱۰ دقیقه** یک درخواست GET به `https://<نام-سرویس>.onrender.com/health` بفرست تا سرویس رایگان نخوابد.
+4. دیتابیس روی پلن رایگان با هر دیپلوی پاک می‌شود؛ برای ماندگاری، Render Disk اضافه کن و `DATA_DIR=/var/data` بگذار.
+5. فقط **یک** نمونه از ربات باید همزمان اجرا شود.
 
 </div>
 
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
-
-<div align="center">
-
-## `◈` Advanced Features
-
-</div>
-
-**Smart language detection**
-```python
-def _pattern_detect_language(self, text):
-    patterns = {
-        'fa': r'[\u0600-\u06FF]',    # Persian/Arabic script
-        'ar': r'[\u0621-\u064A]',    # Arabic specific
-        'ru': r'[а-яё]',             # Cyrillic
-        'zh': r'[\u4e00-\u9fff]',    # Chinese characters
-        # ... more patterns
-    }
-```
-
-**Fallback chain**
-```python
-translators_to_try = [
-    ('Google', 'google'),
-    ('Bing', 'bing'),
-    ('Yandex', 'yandex'),
-    ('Baidu', 'baidu'),
-]
-```
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+</details>
 
 ---
 
@@ -338,55 +220,17 @@ translators_to_try = [
 
 ## `◈` Security & Privacy
 
-<small>
-
-| <sub>Guarantee</sub> | <sub>Detail</sub> |
-|:---:|:---:|
-| <sub>No data mining</sub> | <sub>Personal conversations are not stored</sub> |
-| <sub>Secure API</sub> | <sub>All translation requests are encrypted</sub> |
-| <sub>Privacy first</sub> | <sub>Only translation history (optional) is saved</sub> |
-| <sub>GDPR compliant</sub> | <sub>User data can be deleted on request</sub> |
-
-</small>
-
 </div>
 
-<br/>
+| | |
+|:--|:--|
+| **Stored** | Telegram id, name/username, language settings, translation count, and the text + translation of the **last 20** translations (for history) |
+| **Sent to third parties** | The text being translated is sent to the active engine (Gemini / Google / LibreTranslate / MyMemory) |
+| **User control** | `/history` → clear history · `/deleteme` → permanently delete all data |
+| **Secrets** | Token and keys only via environment variables; HTTP-client request logs (which contain the bot token in the URL) are silenced |
+| **Abuse protection** | Per-user sliding-window rate limit, 4000-character cap |
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
-
-<div align="center">
-
-## `◈` Viewing Only
-
-</div>
-
-> ⚠️ **This is proprietary software for viewing purposes only.** Shared for **educational and demonstration purposes**.
-
-<table align="center">
-<tr>
-<td align="center" width="300">
-
-**🚫 Prohibited**
-<sub>No copying · no modification · no redistribution · no commercial use · no derivative works</sub>
-
-</td>
-<td align="center" width="300">
-
-**✅ Permitted**
-<sub>View the code for learning · read the documentation · use the official bot</sub>
-
-</td>
-</tr>
-</table>
-
-Interested in using this code for your own project? Contact the developer for proper licensing.
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+Found a vulnerability? Please report it privately to the maintainer (contact below) instead of opening a public issue.
 
 ---
 
@@ -396,30 +240,22 @@ Interested in using this code for your own project? Contact the developer for pr
 
 </div>
 
-**Upcoming**
-- 🎙️ Voice translation — speech-to-text, then translate
-- 📄 File support — PDF, DOCX, TXT
-- 🖼️ Image translation — OCR + translate
-- 🔑 Personal API — custom access for developers
-- 📦 Bulk translation — multiple texts at once
-- ⭐ Translation quality scoring
+- 🎙️ Voice translation (speech-to-text → translate)
+- 🖼️ Image translation (OCR + translate)
+- 📄 File translation (PDF / DOCX / TXT)
+- 🌐 Webhook mode
+- 🐘 Optional PostgreSQL backend (persistent data on free hosting)
+- 🔑 Personal API access for developers
 
-<small>
-
-| <sub>Version</sub> | <sub>Highlights</sub> |
+| Version | Highlights |
 |:---:|:---|
-| <sub>v6.0</sub> | <sub>Multi-engine system with 4 fallback APIs</sub> |
-| <sub>v5.0</sub> | <sub>Advanced UI with gamification</sub> |
-| <sub>v4.0</sub> | <sub>User statistics and history tracking</sub> |
-| <sub>v3.0</sub> | <sub>Language detection improvements</sub> |
-| <sub>v2.0</sub> | <sub>Multi-language support expansion</sub> |
-| <sub>v1.0</sub> | <sub>Initial release</sub> |
-
-</small>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+| **v7.0** | Async rewrite, Gemini AI engine, circuit breaker + cache, SQLite, new UI, 28 languages |
+| v6.0 | Multi-engine system with 4 fallback APIs |
+| v5.0 | Advanced UI with gamification |
+| v4.0 | User statistics and history tracking |
+| v3.0 | Language detection improvements |
+| v2.0 | Multi-language support expansion |
+| v1.0 | Initial release |
 
 ---
 
@@ -427,41 +263,15 @@ Interested in using this code for your own project? Contact the developer for pr
 
 ## `◈` Creator
 
-<br/>
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=14&duration=2000&pause=400&color=C1502E&center=true&vCenter=true&width=500&height=30&lines=%E2%96%B6+Created+with+%E2%9D%A4+by+Amin+Moniry"/>
-
-<br/>
-
-<table>
-<tr>
-<td align="center" width="210">
-<a href="https://github.com/Amin-Moniry">
-<img src="https://img.shields.io/badge/◈_GITHUB-Amin--Moniry-C1502E?style=for-the-badge&logo=github&logoColor=C1502E&labelColor=140a08&color=3B1508" width="200"/>
-</a>
-</td>
-<td align="center" width="210">
-<a href="https://t.me/BotamBotamBotamBot">
-<img src="https://img.shields.io/badge/◈_TELEGRAM_BOT-@BotamBotamBotamBot-C1502E?style=for-the-badge&logo=telegram&logoColor=C1502E&labelColor=140a08&color=3B1508" width="200"/>
-</a>
-</td>
-<td align="center" width="210">
-<a href="https://t.me/amintivanix2">
-<img src="https://img.shields.io/badge/◈_CONTACT-@amintivanix2-C1502E?style=for-the-badge&logo=telegram&logoColor=C1502E&labelColor=140a08&color=3B1508" width="200"/>
-</a>
-</td>
-</tr>
-</table>
+<a href="https://github.com/Amin-Moniry"><img src="https://img.shields.io/badge/◈_GITHUB-Amin--Moniry-C1502E?style=for-the-badge&logo=github&logoColor=C1502E&labelColor=140a08&color=3B1508"/></a>
+<a href="https://t.me/BotamBotamBotamBot"><img src="https://img.shields.io/badge/◈_TELEGRAM_BOT-@BotamBotamBotamBot-C1502E?style=for-the-badge&logo=telegram&logoColor=C1502E&labelColor=140a08&color=3B1508"/></a>
+<a href="https://t.me/amintivanix2"><img src="https://img.shields.io/badge/◈_CONTACT-@amintivanix2-C1502E?style=for-the-badge&logo=telegram&logoColor=C1502E&labelColor=140a08&color=3B1508"/></a>
 
 📧 [amintivanix2@gmail.com](mailto:amintivanix2@gmail.com) &nbsp;·&nbsp; 🌐 [allin1wrench.ir](https://allin1wrench.ir)
 
 ⭐ **If this project is useful to you, drop a star!**
 
 </div>
-
-<br/>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ---
 
@@ -471,14 +281,10 @@ Interested in using this code for your own project? Contact the developer for pr
 
 **© 2026 Amin Moniry (AminTivanix2) — All Rights Reserved**
 
-This software is **proprietary and confidential**. Unauthorized copying, modification, distribution, or use of this software, via any medium, is strictly prohibited without the express written permission of the copyright holder. Full details in [LICENSE](LICENSE).
+This software is **proprietary**: the source is published **for viewing and learning only**. Copying, modification, redistribution and commercial use require the author's written permission — see [LICENSE](LICENSE). The official bot is free to use: **[@BotamBotamBotamBot](https://t.me/BotamBotamBotamBot)**.
 
 <br/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&weight=700&size=15&duration=3500&pause=900&color=C1502E&center=true&vCenter=true&width=720&height=50&lines=%E2%96%B6+Engineered+by+Amin+Moniry;%E2%97%8F+Four+Engines.+One+Fallback+Chain.+Zero+Downtime.;%E2%96%B6+Google+%C2%B7+Bing+%C2%B7+Yandex+%C2%B7+Baidu+%C2%B7+2026"/>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:140a08,50:5C2A1A,100:140a08&height=160&section=footer&text=Built%20with%20intelligence%20%E2%80%94%20BotAM&fontSize=26&fontAlign=50&fontAlignY=55&fontColor=C1502E&animation=fadeIn&stroke=C1502E&strokeWidth=0.5" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:140a08,50:5C2A1A,100:140a08&height=160&section=footer&text=Built%20with%20intelligence%20%E2%80%94%20BotAM&fontSize=26&fontAlign=50&fontColor=C1502E" width="100%"/>
 
 </div>
